@@ -3,15 +3,14 @@ import { Stack } from '@mui/material'
 import { categories } from '../utils/constrants';
 
 
-const selectedCategory = "New";
-
-const Sidebar = () => {
-  return (
+const Sidebar = ({selectedCategory, setselectedCategory}) => (
     <Stack direction="row" sx={{overflowY: "auto", height: {sx:'auto', md: '95%'}, flexDirection: {md: 'column'}, 
     }}>
         {categories.map((category) => (
             <button
-                className="category-btn" style={{
+                className="category-btn"
+                 onClick={() => setselectedCategory (category.name)}
+                 style={{
                     background: category.name === selectedCategory && '#FC1503', color:'white', 
                 }} key={category.name}>
 
@@ -21,6 +20,6 @@ const Sidebar = () => {
         ))}
     </Stack>
   )
-}
+
 
 export default Sidebar

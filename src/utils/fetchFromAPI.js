@@ -5,13 +5,11 @@ const BASE_URL = 'https://youtube-v31.p.rapidapi.com'
 
 const options = {
     params: {
-      relatedToVideoId: '7ghhRHRP6t4',
-      part: 'id,snippet',
-      type: 'video',
       maxResults: '50'
     },
+    
     headers: {
-      'X-RapidAPI-Key': '21afacf876mshea68371728e8d1cp1c8fc6jsndff778cb52e0',
+      'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
       'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
     }
   };

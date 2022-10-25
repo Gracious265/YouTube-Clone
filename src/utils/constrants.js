@@ -12,8 +12,8 @@ import TheaterComedyIcon from '@mui/icons-material/TheaterComedy';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
 
-export const logo1 = 'https://i.ibb.co/s9Qys2j/logo.png';
-export const logo = 'https://thumbs.dreamstime.com/b/vector-design-mobile-application-logo-youtube-apk-icon-118452871.jpg'
+// export const logo1 = 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepnglogos.com%2Fpics%2Fyoutube-logo-png&psig=AOvVaw1ALJNxOIFhzIxcl7cwVmwC&ust=1666795016986000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCIC6hbvN-_oCFQAAAAAdAAAAABAJ';
+// export const logo = 'https://thumbs.dreamstime.com/b/vector-design-mobile-application-logo-youtube-apk-icon-118452871.jpg'
 
 export const categories = [
   { name: 'New', icon: <HomeIcon />, },
